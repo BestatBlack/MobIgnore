@@ -1,0 +1,229 @@
+name: ${project.artifactId}
+description: ${project.description}
+website: ${project.url}
+
+author: Best_at_Black
+version: ${project.version}
+api-version: 1.17
+
+main: io.github.BestatBlack.mobAvoid.MobAvoid
+
+permissions: 
+  mobavoid.*:
+    description: Sets all mobs to not target the player under any condition.
+    default: false
+    children:
+      mobavoid.axolotl: true
+      mobavoid.bat: true
+      mobavoid.bee: true
+      mobavoid.blaze: true
+      mobavoid.cat: true
+      mobavoid.cavespider: true
+      mobavoid.chicken: true
+      mobavoid.cod: true
+      mobavoid.cow: true
+      mobavoid.creeper: true
+      mobavoid.dolphin: true
+      mobavoid.donkey: true
+      mobavoid.drowned: true
+      mobavoid.elderguardian: true
+      mobavoid.enderdragon: true
+      mobavoid.enderman: true
+      mobavoid.endermite: true
+      mobavoid.evoker: true
+      mobavoid.fox: true
+      mobavoid.ghast: true
+      mobavoid.giant: true
+      mobavoid.glowsquid: true
+      mobavoid.goat: true
+      mobavoid.guardian: true
+      mobavoid.hoglin: true
+      mobavoid.horse: true
+      mobavoid.husk: true
+      mobavoid.irongolem: true
+      mobavoid.llama: true
+      mobavoid.magmacube: true
+      mobavoid.mule: true
+      mobavoid.mushroomcow: true
+      mobavoid.ocelot: true
+      mobavoid.panda: true
+      mobavoid.parrot: true
+      mobavoid.phantom: true
+      mobavoid.pig: true
+      mobavoid.piglin: true
+      mobavoid.pillager: true
+      mobavoid.polarbear: true
+      mobavoid.pufferfish: true
+      mobavoid.rabbit: true
+      mobavoid.ravager: true
+      mobavoid.salmon: true
+      mobavoid.sheep: true
+      mobavoid.shulker: true
+      mobavoid.silverfish: true
+      mobavoid.skeleton: true
+      mobavoid.skeletonhorse: true
+      mobavoid.slime: true
+      mobavoid.snowman: true
+      mobavoid.spider: true
+      mobavoid.squid: true
+      mobavoid.stray: true
+      mobavoid.strider: true
+      mobavoid.traderllama: true
+      mobavoid.tropicalfish: true
+      mobavoid.turtle: true
+      mobavoid.vex: true
+      mobavoid.villager: true
+      mobavoid.vindicator: true
+      mobavoid.wanderingtrader: true
+      mobavoid.witch: true
+      mobavoid.wither: true
+      mobavoid.witherskeleton: true
+      mobavoid.wolf: true
+      mobavoid.zoglin: true
+      mobavoid.zombie: true
+      mobavoid.zombiehorse: true
+      mobavoid.zombievillager: true
+      mobavoid.zombifiedpiglin: true
+
+  mobavoid.axolotl:
+    default: false
+  mobavoid.bat:
+    default: false
+  mobavoid.bee:
+    default: false
+  mobavoid.blaze:
+    default: false
+  mobavoid.cat:
+    default: false
+  mobavoid.cavespider:
+    default: false
+  mobavoid.chicken:
+    default: false
+  mobavoid.cod:
+    default: false
+  mobavoid.cow:
+    default: false
+  mobavoid.creeper:
+    default: false
+  mobavoid.dolphin:
+    default: false
+  mobavoid.donkey:
+    default: false
+  mobavoid.drowned:
+    default: false
+  mobavoid.elderguardian:
+    default: false
+  mobavoid.enderdragon:
+    default: false
+  mobavoid.enderman:
+    default: false
+  mobavoid.endermite:
+    default: false
+  mobavoid.evoker:
+    default: false
+  mobavoid.fox:
+    default: false
+  mobavoid.ghast:
+    default: false
+  mobavoid.giant:
+    default: false
+  mobavoid.glowsquid:
+    default: false
+  mobavoid.goat:
+    default: false
+  mobavoid.guardian:
+    default: false
+  mobavoid.hoglin:
+    default: false
+  mobavoid.horse:
+    default: false
+  mobavoid.husk:
+    default: false
+  mobavoid.irongolem:
+    default: false
+  mobavoid.llama:
+    default: false
+  mobavoid.magmacube:
+    default: false
+  mobavoid.mule:
+    default: false
+  mobavoid.mushroomcow:
+    default: false
+  mobavoid.ocelot:
+    default: false
+  mobavoid.panda:
+    default: false
+  mobavoid.parrot:
+    default: false
+  mobavoid.phantom:
+    default: false
+  mobavoid.pig:
+    default: false
+  mobavoid.piglin:
+    default: false
+  mobavoid.pillager:
+    default: false
+  mobavoid.polarbear:
+    default: false
+  mobavoid.pufferfish:
+    default: false
+  mobavoid.rabbit:
+    default: false
+  mobavoid.ravager:
+    default: false
+  mobavoid.salmon:
+    default: false
+  mobavoid.sheep:
+    default: false
+  mobavoid.shulker:
+    default: false
+  mobavoid.silverfish:
+    default: false
+  mobavoid.skeleton:
+    default: false
+  mobavoid.skeletonhorse:
+    default: false
+  mobavoid.slime:
+    default: false
+  mobavoid.snowman:
+    default: false
+  mobavoid.spider:
+    default: false
+  mobavoid.squid:
+    default: false
+  mobavoid.stray:
+    default: false
+  mobavoid.strider:
+    default: false
+  mobavoid.traderllama:
+    default: false
+  mobavoid.tropicalfish:
+    default: false
+  mobavoid.turtle:
+    default: false
+  mobavoid.vex:
+    default: false
+  mobavoid.villager:
+    default: false
+  mobavoid.vindicator:
+    default: false
+  mobavoid.wanderingtrader:
+    default: false
+  mobavoid.witch:
+    default: false
+  mobavoid.wither:
+    default: false
+  mobavoid.witherskeleton:
+    default: false
+  mobavoid.wolf:
+    default: false
+  mobavoid.zoglin:
+    default: false
+  mobavoid.zombie:
+    default: false
+  mobavoid.zombiehorse:
+    default: false
+  mobavoid.zombievillager:
+    default: false
+  mobavoid.zombifiedpiglin:
+    default: false
